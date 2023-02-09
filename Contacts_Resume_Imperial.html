@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="Resume_Imperial.html">&#8592;BACK</a>
-    <br />
-    
-    <h2>DROP A MESSAGE</h2>
-    <form>
+    <div class = "form-body">
+        <div class = "form">
+            <h1 class = "form-primary">TALK WITH ME!</h1>
+            <p class = "form-secondary">All messages will be read and replied to ASAP!</p>
+                <form class = "form-text">
+                    <label>
+                        <input type = "text" placeholder= "Enter your name">
+                    </label>
+                    <br>
+                    <label>
+                        <input type = "email" placeholder= "Enter your email">
+                    </label>
+                    <br>
+                    <label>
+                        <textarea name = "Message" cols = "60" rows = "11" placeholder = "Enter your message"></textarea>
+                    </label>
+                    
+                    <input type = "submit" name = "submit" value = "Submit" />
+                    <input type = "reset" name = "reset" value = "Reset" />
+                </form>
+        </div>
+        <div class="text-contacts">
+            <img src = "Mugi.jpg" class = "image-contact">
+            <h1 class = "contact-description">Yes, but I’d rather be friends with fun people that I don’t meet often.</h1>
+            <p class = "contact-description2">- Tsumugi Kotobuki</p>
 
-        Name : <input type = "text" placeholder= "Enter your name">
-
-        <br />
-        <br />
-
-        Email : <input type = "email" placeholder= "Enter your email">
-
-        <br />
-        <br />
-
-        Message : <br />
-        <textarea name = "Message" cols -="30" rows = "10" placeholder= "Enter your message"></textarea>
-
-        <br/>
-
-        <input type = "submit" name = "submit" value = "Submit" />
-        <input type = "reset" name = "reset" value = "Reset" />
-
-        <br/>
-        <br/>
-
-        <a href="https://www.instagram.com/visuals.phantom/?hl=en">Instagram</a>
-        <a href="https://visualsphantom.carrd.co/">Carrd</a>
-    </form>
-    
+            <a href="Resume_Imperial.html">
+                <button class = "button-contact">Return to profile</button>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
